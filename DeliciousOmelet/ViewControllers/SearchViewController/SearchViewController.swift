@@ -84,10 +84,10 @@ class SearchViewController: BaseViewController, UITableViewDataSource, UITableVi
             }
         }
         tableView.reloadData()
-     
+        
         return true
     }
-
+    
     // MARK: - Table view data source
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

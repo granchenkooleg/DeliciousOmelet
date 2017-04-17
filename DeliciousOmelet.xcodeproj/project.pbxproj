@@ -12,12 +12,12 @@
 		7C036B1F1E87BDC0004807EF /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C036B1E1E87BDC0004807EF /* BaseViewController.swift */; };
 		7C036B221E87C35F004807EF /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C036B211E87C35F004807EF /* TextField.swift */; };
 		7C036B241E87C445004807EF /* String + Ext..swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C036B231E87C445004807EF /* String + Ext..swift */; };
+		7C52E37D1EA56D43008B6D18 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C52E37C1EA56D43008B6D18 /* Food.swift */; };
 		7C5807F91E86F62200BFAA7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5807F81E86F62200BFAA7D /* AppDelegate.swift */; };
 		7C5807FE1E86F62200BFAA7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C5807FC1E86F62200BFAA7D /* Main.storyboard */; };
 		7C5808001E86F62200BFAA7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C5807FF1E86F62200BFAA7D /* Assets.xcassets */; };
 		7C5808031E86F62200BFAA7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C5808011E86F62200BFAA7D /* LaunchScreen.storyboard */; };
 		7C58080B1E86F6EC00BFAA7D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C58080A1E86F6EC00BFAA7D /* Constants.swift */; };
-		7C5808101E86F77A00BFAA7D /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C58080F1E86F77A00BFAA7D /* Food.swift */; };
 		7C5808121E86F7B200BFAA7D /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5808111E86F7B200BFAA7D /* APIRequest.swift */; };
 		E368FC714FF81909D1AED855 /* Pods_DeliciousOmelet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2713573A6BEDD4E364F339 /* Pods_DeliciousOmelet.framework */; };
 /* End PBXBuildFile section */
@@ -26,10 +26,11 @@
 		149AA429DA242DF42C7CCB51 /* Pods-DeliciousOmelet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeliciousOmelet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeliciousOmelet/Pods-DeliciousOmelet.debug.xcconfig"; sourceTree = "<group>"; };
 		5B2713573A6BEDD4E364F339 /* Pods_DeliciousOmelet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeliciousOmelet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C0320E91E88265700A12AF9 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		7C036B191E87B508004807EF /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		7C036B1E1E87BDC0004807EF /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		7C036B211E87C35F004807EF /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
-		7C036B231E87C445004807EF /* String + Ext..swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String + Ext..swift"; sourceTree = "<group>"; };
+		7C036B191E87B508004807EF /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchViewController.swift; path = ViewControllers/SearchViewController/SearchViewController.swift; sourceTree = "<group>"; };
+		7C036B1E1E87BDC0004807EF /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = ViewControllers/BaseViewController/BaseViewController.swift; sourceTree = "<group>"; };
+		7C036B211E87C35F004807EF /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextField.swift; path = View/TextField.swift; sourceTree = "<group>"; };
+		7C036B231E87C445004807EF /* String + Ext..swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String + Ext..swift"; path = "Extentions/String + Ext..swift"; sourceTree = "<group>"; };
+		7C52E37C1EA56D43008B6D18 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Food.swift; path = Model/Food.swift; sourceTree = "<group>"; };
 		7C5807F51E86F62200BFAA7D /* DeliciousOmelet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeliciousOmelet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C5807F81E86F62200BFAA7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C5807FD1E86F62200BFAA7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -37,8 +38,7 @@
 		7C5808021E86F62200BFAA7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C5808041E86F62200BFAA7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C58080A1E86F6EC00BFAA7D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		7C58080F1E86F77A00BFAA7D /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
-		7C5808111E86F7B200BFAA7D /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		7C5808111E86F7B200BFAA7D /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIRequest.swift; path = Extentions/APIRequest.swift; sourceTree = "<group>"; };
 		B80F9CDF6B9EB246010B1401 /* Pods-DeliciousOmelet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeliciousOmelet.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeliciousOmelet/Pods-DeliciousOmelet.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,7 +126,7 @@
 		7C58080C1E86F70100BFAA7D /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7C58080F1E86F77A00BFAA7D /* Food.swift */,
+				7C52E37C1EA56D43008B6D18 /* Food.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -283,10 +283,10 @@
 				7C0320EA1E88265700A12AF9 /* NetworkReachabilityManager.swift in Sources */,
 				7C036B1A1E87B508004807EF /* SearchViewController.swift in Sources */,
 				7C036B241E87C445004807EF /* String + Ext..swift in Sources */,
-				7C5808101E86F77A00BFAA7D /* Food.swift in Sources */,
 				7C036B221E87C35F004807EF /* TextField.swift in Sources */,
 				7C5807F91E86F62200BFAA7D /* AppDelegate.swift in Sources */,
 				7C5808121E86F7B200BFAA7D /* APIRequest.swift in Sources */,
+				7C52E37D1EA56D43008B6D18 /* Food.swift in Sources */,
 				7C036B1F1E87BDC0004807EF /* BaseViewController.swift in Sources */,
 				7C58080B1E86F6EC00BFAA7D /* Constants.swift in Sources */,
 			);

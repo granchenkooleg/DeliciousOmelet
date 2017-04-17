@@ -17,16 +17,16 @@ class BaseViewController: UIViewController {
     @IBOutlet weak var navigationBar: UIView?
     
     var viewAppeared = false
-   
+    
     
     override func loadView() {
         super.loadView()
-       
+        
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+        
     }
     
     func shouldUsePreferredViewFrame() -> Bool {

@@ -58,7 +58,7 @@ func requestHandler(_ function: Any, urlRequest: URLRequestConvertible, completi
             
             if case let .success(value) = response.result {
                 let json = JSON(value)
-
+                
                 completionHandler(json)
             }
     }
@@ -139,37 +139,6 @@ enum UserRequest: URLRequestConvertible {
             completion(json)
         })
     }
-    
-    
-    
-    //    static func makelogin(_ entryParams: [String : AnyObject], completion: @escaping (Bool) -> Void) {
-    //        requestHandler(#function, urlRequest: login(entryParams)) { json in
-    //            guard let json = json, json[0]["error"] == false else {
-    //                UIAlertController.alert("Введите корректные данные!".ls).show()
-    //                completion(false)
-    //                return
-    //            }
-    //            print (">>self - \(json)<<")
-    //            User.setupUser(id: "\(json[0]["data"]["id"])", firstName: "\(json[0]["data"]["username"])", email: "\(json[0]["data"]["email"])", phone: "\(json[0]["data"]["phone"])")
-    //            // For InfoAboutUserForOrder Realm table
-    //            InfoAboutUserForOrder.setupAllUserInfo(name: "\(json[0]["data"]["username"])", phone: "\(json[0]["data"]["phone"])", city: "Одесса")
-    //
-    //            completion(true)
-    //        }
-    //    }
-    
-    //    static func makeRegistration(_ entryParams: [String : AnyObject], completion: @escaping (Bool) -> Void) {
-    //        requestHandler(#function, urlRequest: registration(entryParams)) { json in
-    //            guard let json = json, json[0]["error"] == false else {
-    //                //UIAlertController.alert("Пользователь с такими данными уже зарегистрирован!".ls).show()
-    //                completion(false)
-    //                return
-    //            }
-    //
-    //            User.setupUser(id: "\(json[0]["data"]["id"])", firstName: "\(json[0]["data"]["username"])")
-    //            completion(true)
-    //        }
-    //    }
     
 }
 
