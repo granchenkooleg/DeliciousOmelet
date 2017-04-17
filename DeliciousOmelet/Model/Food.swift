@@ -18,7 +18,6 @@ extension Results {
 
 class Foods : Object {
     
-    //dynamic var id = 0
     dynamic var title = ""
     dynamic var href = ""
     var results = List<Result>()
@@ -40,7 +39,7 @@ class Foods : Object {
         return "title"
     }
     
-    //path to Realm
+    // Path to Realm
     static func setConfig() {
         let realm = try! Realm()
         if let url = realm.configuration.fileURL {
