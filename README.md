@@ -5,9 +5,6 @@
 3. Все полученные данные сохраненяются локально (Realm.io)
 4. Возможность работы приложения offline
 
-<a href="https://imgflip.com/gif/1yrvu4"><img src="https://i.imgflip.com/1yrvu4.gif" title="made at imgflip.com"/></a>
-
-https://github.com/granchenkooleg/DeliciousOmelet/blob/master/DelishiousOmelet.gif
 ![Alt text](https://github.com/granchenkooleg/DeliciousOmelet/blob/master/DelishiousOmelet.gif?raw=true "DeliciousOmelet")
 
 
