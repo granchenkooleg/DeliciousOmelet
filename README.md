@@ -1,2 +1,10 @@
-# DeliciousOmelet
-# DeliciousOmelet
+ Приложение выполнено на языке программирования Swift 3. Итерфейс адаптирован под все размеры экранов iPhone.
+1. Получен изначально список рецептов омлетов
+2. Далее список рецептов меняется от поискового слова
+3. Все полученные данные сохранены локально (Realm.io)
+4. Возможность работы приложения offline
+
+<a href="https://imgflip.com/gif/1yrvu4"><img src="https://i.imgflip.com/1yrvu4.gif" title="made at imgflip.com"/></a>
+
+
+
